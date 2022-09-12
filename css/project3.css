@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700&family=Raleway:wght@200;300;400&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+:root{
+    --style:none;
+    --navy:#22356F;
+    --dsply:flex;
+    --clr:#F9B640;
+    --sky: #62D0DF;
+    --white: white;
+    --decor: none;
+    --font: 'Montserrat', sans-serif;
+}
+.main{
+    background-image: url('../images/Rectangle\ 3.1.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-color: #F4F9E2;
+}
+.main-nav{
+    display: flex;
+    font-family: var(--font);
+}
+.main-list{
+    display: flex;
+    margin-left: 155px;
+}
+.nav-list{
+    list-style-type: none;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.nav-link{
+    text-decoration: none;
+    padding: 15px 20px;
+    color: var(--navy);
+    font-family: var(--font);
+    font-size: 14px;
+}
+.list3{
+    margin-left: 200px;
+}
+.n-list{
+    margin-top: 21px;
+}
+.active{
+    background-color: #62D0DF;
+    color: white;
+    top: 18px;
+    position: absolute;
+    border-radius: 45px;
+    padding: 12px 17px;
+}
+.main-header{
+    display: flex;
+    justify-content: center;
+}
+.m-thrive-link{
+    margin-top: 40px;
+}
+.heading{
+    font-family: var(--font);
+    color: var(--navy);
+}
+.thrive-link{
+    text-decoration: none;
+    background-color: #F9B640;
+    color: white;
+    padding: 10px 22px;
+}
+.head-img{
+    max-width: 100%;
+    border-radius: 100% 50% 100%;
+    float: right;
+    height: 75%;
+}
+.content{
+    margin-top: 152px;
+}
+.head-info{
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 40px;
+    color: var(--navy);
+    font-weight: bold;
+}
+.thrive-link2{
+    text-decoration: var(--decor);
+    margin-left: 10px;
+    color: var(--clr);
+}
+.link-h{
+    border-bottom: 2px solid var(--navy);
+}
+.link-h2:hover{
+    border-bottom: 2px solid var(--navy);
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.section-2{
+        display: var(--dsply);
+        background-color: var(--sky);
+        color: var(--white);
+}
+.sub-head{
+    transform: translate(125px,140px);
+}
+.sub-para{
+    transform: translate(125px,180px);
+    font-size: 18px;
+    line-height: 30px;
+    width: 54%;
+}
+.section-3{
+    display: var(--dsply);
+    margin-top: 100px;
+    color: var(--navy);
+}
+.about{
+    margin-left: 150px;
+}
+.sec3-info{
+    padding-left: 270px;
+}
+.para{
+    width: 30%;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: var(--font);
+    font-weight: bold;
+}
+.data{
+    text-align: center;
+    color: grey;
+}
+.main-box{
+    display: flex;
+    position: relative;
+}
+.box-1{
+    background-color: lightpink;
+    width: 340px;
+    height: 290px;
+}
+.sub-box1{
+    color: var(--white);
+    margin-top: 100px;
+    margin-left: 60px;
+    font-size: 21px;
+}
+.sub-box1::before{
+    position: absolute;
+    content: "";
+    border-top: 2px solid var(--white);
+    width: 226px;
+    margin-left: -25px;
+    top: 89px;
+}
+.s-box::after{
+    position: absolute;
+    content: "";
+    border: 2px solid var(--clr);
+    background-color: #F9B640;
+    width: 5px;
+    border-radius: 50%;
+    height: 5px;
+    top: 108px;
+    margin-left: 45px;
+}
+.box-2{
+    background-color: #7dec7d;
+}
+.box-3{
+    background-color: var(--sky);
+}
+.box-4{
+    background-color: blue;
+}
+.main-box2{
+    margin-top: 50px;
+}
+.box-5{
+    background-color: var(--navy);
+}
+.box-6{
+    background-color: blue;
+}
+.box-7::before{
+    background-image: url('../images/nutrition.jpg');
+    background-repeat: none;
+    background-size: cover;
+    content: "";
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 100%;
+  width: 33%;
+ filter: brightness(0.6);
+}
+.box1{
+    width: 450px;
+    height: 400px;
+}
+.box-8{
+    background-color: var(--sky);
+}
+.box-9{
+    background-color: lightgrey;
+}
+.box-10{
+    background-color: purple;
+}
+.about-data{
+    display: var(--dsply);
+    margin-top: 30px;
+}
+.data2{
+    padding: 0px 84px;
+}
+.right-data{
+    display: flex;
+    margin-top: 50px;
+}
+.thrive-h{
+    margin-top: 100px;
+    margin-left: 100px;
+    color: grey;
+}
+.thrive-data{
+    width: 61%;
+    transform: translate(100px, 200px);
+    line-height: 40px;
+    color: var(--navy);
+    font-family: var(--font);
+}
+.thrive-lnk{
+    margin-top: 400px;
+}
+.thrive-last{
+    color: var(--clr);
+    text-decoration: var(--decor);
+    font-family: var(--font);
+    font-weight: bold;
+    margin-left: 100px;
+}
+.about-cntct{
+    display: flex;
+    background-color: var(--navy);
+    margin-top: -4px;
+}
+.m-head{
+    margin-top: 320px;
+    margin-left: 100px;
+}
+.main-cntct{
+    color: var(--white);
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.cntct-data{
+    color: var(--white);
+}
+.cntct-img{
+    margin-left: 188px;
+}
+.cntct-para{
+    font-size: 28px;
+    width: 74%;
+    line-height: 38px;
+    margin-left: 100px;
+}
+.cntct-link{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.cntct-help{
+    color: var(--sky);
+    text-decoration: var(--decor);
+}
+.main-footer{
+    display: var(--dsply);
+}
+.fot-data{
+    width: 16%;
+    padding: 0px 25px;
+    margin-top: 70px;
+    color: var(--navy);
+}
+.phn-no{
+    margin-top: 30px;
+}
+.fot-info{
+    margin-top: 40px;
+    font-size: 15px;
+}
+.fot-1{
+    margin-left: 30px;
+}
+.mail{
+    color: var(--sky);
+    font-weight: bold;
+}
+.end{
+    background-color: var(--sky);
+    padding: 15px 0px;
+    margin-top: -10px;
+}
+.end-para{
+    margin-left: 150px;
+    color: var(--white);
+}
